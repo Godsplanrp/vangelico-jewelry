@@ -9,100 +9,17 @@ const Settings = {
 }
 
 const Menu = {
-	// Combo Items:
-	"Gem Calculator:": {
-		header: true,
-	},
-	"Opal": {
-		price: 200,
-		items: ["Chicken Wrap", "Fries", "Soda"],
-	},
-	"Goat Cheese Wrap Combo": {
-		price: 200,
-		items: ["Goat Cheese Wrap", "Fries", "Soda"],
-	},
-	// Variable combos:
-	"Taco Lovers": {
-		price: 600,
-		emoji: '🍬',
-		items: ["Soda", "Soda", "Soda", "Fries", "Fries", "Taco", "Taco", "Taco", "Taco", "Taco"],
-	},
-	"Sweet Tooth": {
-		price: 650,
-		emoji: '🧂',
-		items: ["Orangotang Ice Cream", "Meteorite Ice Cream", "Mocha Shake"],
-	},
-	"Salty Seaman": {
-		price: 60,
-		emoji: '🦷',
-		items: ["Fries", "Fries", "Soda", "Soda"],
-	},
-	"Burgerhead Special": {
-		price: 1435,
-		emoji: '🍔',
-		items: ["Heartstopper", "Heartstopper", "Fries", "Fries", "Soda", "Soda", "BS Bag"],
-	},
-	"Pimp Daddy": {
-		price: 800,
-		emoji: '🍔',
-		items: ["The Prickly", "Chicken Wrap", "Fries", "Fries", "Soda", "Soda",  "Soda", "Soda", "Orangotang Ice Cream", "BS Bag"],
-	},
-	"Glory to the mymack": {
-		price: 2700,
-		noDiscount: true,
-		emoji: '👑',
-		items: ["Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Meteorite Ice Cream", "Meteorite Ice Cream", "BS Bag"],
-	},
-	"Workers Special (20)": {
-		price: 3000,
-		noDiscount: true,
-		emoji: '💲',
-		items: ["Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake"],
-	},
-	"Workers Special (50)": {
-		price: 7500,
-		noDiscount: true,
-		emoji: '💲',
-		items: ["Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake"],
-	},
-	// Burger Meals:
-	"Burger Meals:": {
-		header: true,
-	},
-	"Murder Meal": {
-		max: 4,
-		fileRenameException: true,
-		price: 1000,
-		noDiscount: true,
-		items: ["Murder Meal"],
-	},
-	"Heartstopper Meal": {
-		price: 350,
-		items: ["Heartstopper", "Fries", "Soda"],
-	},
-	"Double Shot Meal": {
-		price:300,
-		items: ["Double Shot", "Fries", "Soda"],
-	},
-	"Simply Burger Meal": {
-		price: 250,
-		items: ["Simply Burger", "Fries", "Soda"],
-	},
-	"Bleeder Meal": {
-		price: 285,
-		items: ["Bleeder", "Fries", "Soda"],
-	},
-	"The Prickly Meal": {
-		price: 275,
-		items: ["The Prickly", "Fries", "Soda"],
-	},
 	// Individual Items:
 	"Individual Items:": {
 		header: true,
 	},
-	"Opal": {
-		price: 300,
-		items: ["Heartstopper"],
+	"Opal Tier 1 0-30%": {
+		price: 45,
+		items: ["Opal Tier 1 0-30%"],
+	},
+	"Opal Tier 2 30-60%": {
+		price: 120,
+		items: ["Opal Tier 2 30-60%"],
 	},
 	"Citrine": {
 		price: 200,
@@ -112,57 +29,29 @@ const Menu = {
 		price: 220,
 		items: ["Double Shot"],
 	},
-	"Taco": {
+	"Ruby": {
 		price: 120,
 		items: ["Taco"],
 	},
-	"Bleeder": {
+	"Diamond": {
 		price: 230,
 		items: ["Bleeder"],
 	},
-	"Simply Burger": {
+	"Emerald": {
 		price: 150,
 		items: ["Simply Burger"],
 	},
-	"Chicken Wrap": {
+	"Sapphire": {
 		price: 150,
 		items: ["Chicken Wrap"],
 	},
-	"Goat Cheese Wrap": {
+	"Gold": {
 		price: 150,
 		items: ["Goat Cheese Wrap"],
 	},
-	"Fries": {
+	"Silver": {
 		price: 50,
 		items: ["Fries"],
-	},
-	"Water": {
-		price: 5,
-		items: ["Water"],
-	},
-	"Soda": {
-		price: 25,
-		items: ["Soda"]
-	},
-	"Mocha Shake": {
-		price: 150,
-		items: ["Mocha Shake"],
-	},
-	"Meteorite Ice Cream": {
-		price: 350,
-		items: ["Meteorite Ice Cream"],
-	},
-	"Orangotang Ice Cream": {
-		price: 350,
-		items: ["Orangotang Ice Cream"]
-	},
-	"BS Bag": {
-		price: 15,
-		items: ["BS Bag"]
-	},
-	"Delivery Fee": {
-		price: 35,
-		items: ["Delivery Fee"]
 	},
 //"10 Pack BurgerBits": {
  //  price: 1375,
