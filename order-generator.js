@@ -145,6 +145,7 @@ const INDIVIDUAL_ITEMS = [
 	"Sapphire Tier 1 0-30%", "Sapphire Tier 2 30-60%", "Sapphire Tier 3 60-100%", "Ruby Tier 1 0-30%", "Ruby Tier 2 30-60%", "Ruby Tier 3 60-100%",
 	"Diamond Tier 1 0-30%", "Diamond Tier 2 30-60%", "Diamond Tier 3 60-100%", "Silver Ore", "Silver Bar", "Gold Ore", "Gold Bar",
 ];
+
 const buttons = {
 	"buffer": {
 		html: '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
