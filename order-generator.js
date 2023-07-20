@@ -21,37 +21,97 @@ const Menu = {
 		price: 120,
 		items: ["Opal Tier 2 30-60%"],
 	},
-	"Citrine": {
+	"Opal Tier 3 60-100%": {
+		price: 225,
+		items: ["Opal Tier 3 60-1000%"],
+	},
+	"Citrine Tier 1 0-30%": {
+		price: 180,
+		items: ["Citrine Tier 1 0-30%"],
+	},
+	"Citrine Tier 2 30-60%": {
+		price: 360,
+		items: ["Citrine Tier 2 30-60%"],
+	},
+	"Citrine Tier 3 60-100%": {
+		price: 720,
+		items: ["Citrine Tier 3 60-100%"],
+	},
+	"Amethyst Tier 1 0-30%": {
+		price: 180,
+		items: ["Amethyst Tier 1 0-30%"],
+	},
+	"Amethyst Tier 2 30-60%": {
+		price: 360,
+		items: ["Amethyst Tier 2 30-60%"],
+	},
+	"Amethyst Tier 3 60-100%": {
+		price: 720,
+		items: ["Amethyst Tier 3 60-100%"],
+	},
+	"Ruby Tier 1 0-30%": {
+		price: 270,
+		items: ["Ruby Tier 1 0-30%"],
+	},
+	"Ruby Tier 2 30-60%": {
+		price: 540,
+		items: ["Ruby Tier 2 30-60%"],
+	},
+	"Ruby Tier 3 60-100%": {
+		price: 1080,
+		items: ["Ruby Tier 3 60-100%"],
+	},
+	"Diamond Tier 1 0-30%": {
+		price: 350,
+		items: ["Diamond Tier 1 0-30%"],
+	},
+	"Diamond Tier 2 30-60%": {
+		price: 700,
+		items: ["Tier 2 30-60%"],
+	},
+	"Diamond Tier 3 60-100%": {
+		price: 1400,
+		items: ["Diamond Tier 3 60-100%"],
+	},
+	"Emerald Tier 1 0-30%": {
+		price: 340,
+		items: ["Emerald Tier 1 0-30%"],
+	},
+	"Emerald Tier 2 30-60%": {
+		price: 680,
+		items: ["Emerald Tier 2 30-60%"],
+	},
+	"Emerald Tier 3 60-100%": {
+		price: 1350,
+		items: ["Emerald Tier 3 60-100%"],
+	},
+	"Sapphire Tier 1 0-30%": {
+		price: 270,
+		items: ["Sapphire Tier 1 0-30%"],
+	},
+	"Sapphire Tier 2 30-60%": {
+		price: 540,
+		items: ["Sapphire Tier 2 30-60%"],
+	},
+	"Sapphire Tier 3 60-100%": {
+		price: 1080,
+		items: ["Saphhire Tier 3 60-100%"],
+	},
+	"Gold Ore": {
+		price: 150,
+		items: ["Gold Ore"],
+	},
+	"Gold Bar": {
 		price: 200,
-		items: ["The Prickly"],
+		items: ["Gold Bar"],
 	},
-	"Amethyst": {
-		price: 220,
-		items: ["Double Shot"],
+	"Silver Ore": {
+		price: 75,
+		items: ["Silver Ore"],
 	},
-	"Ruby": {
-		price: 120,
-		items: ["Taco"],
-	},
-	"Diamond": {
-		price: 230,
-		items: ["Bleeder"],
-	},
-	"Emerald": {
-		price: 150,
-		items: ["Simply Burger"],
-	},
-	"Sapphire": {
-		price: 150,
-		items: ["Chicken Wrap"],
-	},
-	"Gold": {
-		price: 150,
-		items: ["Goat Cheese Wrap"],
-	},
-	"Silver": {
-		price: 50,
-		items: ["Fries"],
+	"Silver Bar": {
+		price: 100,
+		items: ["Silver Bar"],
 	},
 };
 const buttons = {
