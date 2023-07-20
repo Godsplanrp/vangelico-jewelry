@@ -15,102 +15,127 @@ const Menu = {
 	},
 	"Opal Tier 1 0-30%": {
 		price: 45,
+		emoji: "💎",
 		items: ["Opal Tier 1 0-30%"],
 	},
 	"Opal Tier 2 30-60%": {
 		price: 120,
+		emoji: "💎",
 		items: ["Opal Tier 2 30-60%"],
 	},
 	"Opal Tier 3 60-100%": {
 		price: 225,
+		emoji: "💎",
 		items: ["Opal Tier 3 60-1000%"],
 	},
 	"Citrine Tier 1 0-30%": {
 		price: 180,
+		emoji: "💎",
 		items: ["Citrine Tier 1 0-30%"],
 	},
 	"Citrine Tier 2 30-60%": {
 		price: 360,
+		emoji: "💎",
 		items: ["Citrine Tier 2 30-60%"],
 	},
 	"Citrine Tier 3 60-100%": {
 		price: 720,
+		emoji: "💎",
 		items: ["Citrine Tier 3 60-100%"],
 	},
 	"Amethyst Tier 1 0-30%": {
 		price: 180,
+		emoji: "💎",
 		items: ["Amethyst Tier 1 0-30%"],
 	},
 	"Amethyst Tier 2 30-60%": {
 		price: 360,
+		emoji: "💎",
 		items: ["Amethyst Tier 2 30-60%"],
 	},
 	"Amethyst Tier 3 60-100%": {
 		price: 720,
+		emoji: "💎",
 		items: ["Amethyst Tier 3 60-100%"],
 	},
 	"Ruby Tier 1 0-30%": {
 		price: 270,
+		emoji: "💎",
 		items: ["Ruby Tier 1 0-30%"],
 	},
 	"Ruby Tier 2 30-60%": {
 		price: 540,
+		emoji: "💎",
 		items: ["Ruby Tier 2 30-60%"],
 	},
 	"Ruby Tier 3 60-100%": {
 		price: 1080,
+		emoji: "💎",
 		items: ["Ruby Tier 3 60-100%"],
 	},
 	"Diamond Tier 1 0-30%": {
 		price: 350,
+		emoji: "💎",
 		items: ["Diamond Tier 1 0-30%"],
 	},
 	"Diamond Tier 2 30-60%": {
 		price: 700,
+		emoji: "💎",
 		items: ["Tier 2 30-60%"],
 	},
 	"Diamond Tier 3 60-100%": {
 		price: 1400,
+		emoji: "💎",
 		items: ["Diamond Tier 3 60-100%"],
 	},
 	"Emerald Tier 1 0-30%": {
 		price: 340,
+		emoji: "💎",
 		items: ["Emerald Tier 1 0-30%"],
 	},
 	"Emerald Tier 2 30-60%": {
 		price: 680,
+		emoji: "💎",
 		items: ["Emerald Tier 2 30-60%"],
 	},
 	"Emerald Tier 3 60-100%": {
 		price: 1350,
+		emoji: "💎",
 		items: ["Emerald Tier 3 60-100%"],
 	},
 	"Sapphire Tier 1 0-30%": {
 		price: 270,
+		emoji: "💎",
 		items: ["Sapphire Tier 1 0-30%"],
 	},
 	"Sapphire Tier 2 30-60%": {
 		price: 540,
+		emoji: "💎",
 		items: ["Sapphire Tier 2 30-60%"],
 	},
 	"Sapphire Tier 3 60-100%": {
 		price: 1080,
+		emoji: "💎",
 		items: ["Saphhire Tier 3 60-100%"],
 	},
 	"Gold Ore": {
 		price: 150,
+		emoji: "💎",
 		items: ["Gold Ore"],
 	},
 	"Gold Bar": {
 		price: 200,
+		emoji: "💎",
 		items: ["Gold Bar"],
 	},
 	"Silver Ore": {
 		price: 75,
+		emoji: "💎",
 		items: ["Silver Ore"],
 	},
 	"Silver Bar": {
 		price: 100,
+		emoji: "💎",
 		items: ["Silver Bar"],
 	},
 };
