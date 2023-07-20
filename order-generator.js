@@ -13,7 +13,7 @@ const Menu = {
 	"Gem Calculator:": {
 		header: true,
 	},
-	"Chicken Wrap Combo": {
+	"Opal": {
 		price: 200,
 		items: ["Chicken Wrap", "Fries", "Soda"],
 	},
@@ -100,15 +100,15 @@ const Menu = {
 	"Individual Items:": {
 		header: true,
 	},
-	"Heartstopper": {
+	"Opal": {
 		price: 300,
 		items: ["Heartstopper"],
 	},
-	"The Prickly": {
+	"Citrine": {
 		price: 200,
 		items: ["The Prickly"],
 	},
-	"Double Shot": {
+	"Amethyst": {
 		price: 220,
 		items: ["Double Shot"],
 	},
@@ -173,7 +173,7 @@ const Menu = {
 //}
 };
 const INDIVIDUAL_ITEMS = [
-	"Murder Meal", "Heartstopper", "Double Shot", "Bleeder", "Water", "Simply Burger", "Chicken Wrap", "Goat Cheese Wrap", "The Prickly",
+	"Opal", "Citrine", "Double Shot", "Bleeder", "Water", "Simply Burger", "Chicken Wrap", "Goat Cheese Wrap", "The Prickly",
 	"Fries", "Soda", "Meteorite Ice Cream", "Orangotang Ice Cream", "Mocha Shake", "Delivery Fee", "Taco", "BS Bag",
 ];
 
