@@ -139,6 +139,12 @@ const Menu = {
 		items: ["Silver Bar"],
 	},
 };
+const INDIVIDUAL_ITEMS = [
+	"Opal Tier 1 0-30%", "Opal Tier 2 30-60%", "Opal Tier 3 60-100%", "Citrine Tier 1 0-30%", "Citrine Tier 2 30-60%", "Citrine Tier 3 60-100%", 
+	"Amethyst Tier 1 0-30%", "Amethyst Tier 2 30-60%", "Amethyst Tier 3 60-100%", "Emerald Tier 1 0-30%", "Emerald Tier 2 30-60%", "Emerald Tier 3 60-100%",
+	"Sapphire Tier 1 0-30%", "Sapphire Tier 2 30-60%", "Sapphire Tier 3 60-100%", "Ruby Tier 1 0-30%", "Ruby Tier 2 30-60%", "Ruby Tier 3 60-100%",
+	"Diamond Tier 1 0-30%", "Diamond Tier 2 30-60%", "Diamond Tier 3 60-100%", "Silver Ore", "Silver Bar", "Gold Ore", "Gold Bar",
+];
 const buttons = {
 	"buffer": {
 		html: '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
