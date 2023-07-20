@@ -15,7 +15,6 @@ const Menu = {
 	},
 	"Opal Tier 1 0-30%": {
 		price: 45,
-		emoji: "💎",
 		items: ["Opal Tier 1 0-30%"],
 	},
 	"Opal Tier 2 30-60%": {
