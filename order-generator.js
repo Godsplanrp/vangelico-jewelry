@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Wrap Combos:": {
+	"Gem Calculator:": {
 		header: true,
 	},
 	"Chicken Wrap Combo": {
