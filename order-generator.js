@@ -9,8 +9,8 @@ const Settings = {
 }
 
 const Menu = {
-	// Individual Items:
-	"Individual Items:": {
+	// Gem Items:
+	"Gem Items:": {
 		header: true,
 	},
 	"Opal Tier 1 0-30%": {
@@ -53,19 +53,7 @@ const Menu = {
 		price: 50,
 		items: ["Fries"],
 	},
-//"10 Pack BurgerBits": {
- //  price: 1375,
- //  max: 1,
- //  noDiscount: true,
-  // lastItem: true,
-   //items: ["10 Pack BurgerBits"],
-//}
 };
-const INDIVIDUAL_ITEMS = [
-	"Opal", "Citrine", "Double Shot", "Bleeder", "Water", "Simply Burger", "Chicken Wrap", "Goat Cheese Wrap", "The Prickly",
-	"Fries", "Soda", "Meteorite Ice Cream", "Orangotang Ice Cream", "Mocha Shake", "Delivery Fee", "Taco", "BS Bag",
-];
-
 const buttons = {
 	"buffer": {
 		html: '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
