@@ -9,141 +9,172 @@ const Settings = {
 }
 
 const Menu = {
-	// Gem Items:
-	"Gem Items:": {
+	// Combo Items:
+	"Gems Calculator:": {
 		header: true,
 	},
-	"Opal Tier 1 0-30%": {
+	"Opal": {
 		price: 45,
-		emoji: "💎",
-		items: ["Opal Tier 1 0-30%"],
+		items: ["Chicken Wrap", "Fries", "Soda"],
 	},
-	"Opal Tier 2 30-60%": {
-		price: 120,
-		emoji: "💎",
-		items: ["Opal Tier 2 30-60%"],
-	},
-	"Opal Tier 3 60-100%": {
-		price: 225,
-		emoji: "💎",
-		items: ["Opal Tier 3 60-1000%"],
-	},
-	"Citrine Tier 1 0-30%": {
-		price: 180,
-		emoji: "💎",
-		items: ["Citrine Tier 1 0-30%"],
-	},
-	"Citrine Tier 2 30-60%": {
-		price: 360,
-		emoji: "💎",
-		items: ["Citrine Tier 2 30-60%"],
-	},
-	"Citrine Tier 3 60-100%": {
-		price: 720,
-		emoji: "💎",
-		items: ["Citrine Tier 3 60-100%"],
-	},
-	"Amethyst Tier 1 0-30%": {
-		price: 180,
-		emoji: "💎",
-		items: ["Amethyst Tier 1 0-30%"],
-	},
-	"Amethyst Tier 2 30-60%": {
-		price: 360,
-		emoji: "💎",
-		items: ["Amethyst Tier 2 30-60%"],
-	},
-	"Amethyst Tier 3 60-100%": {
-		price: 720,
-		emoji: "💎",
-		items: ["Amethyst Tier 3 60-100%"],
-	},
-	"Ruby Tier 1 0-30%": {
-		price: 270,
-		emoji: "💎",
-		items: ["Ruby Tier 1 0-30%"],
-	},
-	"Ruby Tier 2 30-60%": {
-		price: 540,
-		emoji: "💎",
-		items: ["Ruby Tier 2 30-60%"],
-	},
-	"Ruby Tier 3 60-100%": {
-		price: 1080,
-		emoji: "💎",
-		items: ["Ruby Tier 3 60-100%"],
-	},
-	"Diamond Tier 1 0-30%": {
-		price: 350,
-		emoji: "💎",
-		items: ["Diamond Tier 1 0-30%"],
-	},
-	"Diamond Tier 2 30-60%": {
-		price: 700,
-		emoji: "💎",
-		items: ["Tier 2 30-60%"],
-	},
-	"Diamond Tier 3 60-100%": {
-		price: 1400,
-		emoji: "💎",
-		items: ["Diamond Tier 3 60-100%"],
-	},
-	"Emerald Tier 1 0-30%": {
-		price: 340,
-		emoji: "💎",
-		items: ["Emerald Tier 1 0-30%"],
-	},
-	"Emerald Tier 2 30-60%": {
-		price: 680,
-		emoji: "💎",
-		items: ["Emerald Tier 2 30-60%"],
-	},
-	"Emerald Tier 3 60-100%": {
-		price: 1350,
-		emoji: "💎",
-		items: ["Emerald Tier 3 60-100%"],
-	},
-	"Sapphire Tier 1 0-30%": {
-		price: 270,
-		emoji: "💎",
-		items: ["Sapphire Tier 1 0-30%"],
-	},
-	"Sapphire Tier 2 30-60%": {
-		price: 540,
-		emoji: "💎",
-		items: ["Sapphire Tier 2 30-60%"],
-	},
-	"Sapphire Tier 3 60-100%": {
-		price: 1080,
-		emoji: "💎",
-		items: ["Saphhire Tier 3 60-100%"],
-	},
-	"Gold Ore": {
-		price: 150,
-		emoji: "💎",
-		items: ["Gold Ore"],
-	},
-	"Gold Bar": {
+	"Goat Cheese Wrap Combo": {
 		price: 200,
-		emoji: "💎",
-		items: ["Gold Bar"],
+		items: ["Goat Cheese Wrap", "Fries", "Soda"],
 	},
-	"Silver Ore": {
-		price: 75,
-		emoji: "💎",
-		items: ["Silver Ore"],
+	// Variable combos:
+	"Taco Lovers": {
+		price: 600,
+		emoji: '🍬',
+		items: ["Soda", "Soda", "Soda", "Fries", "Fries", "Taco", "Taco", "Taco", "Taco", "Taco"],
 	},
-	"Silver Bar": {
-		price: 100,
-		emoji: "💎",
-		items: ["Silver Bar"],
+	"Sweet Tooth": {
+		price: 650,
+		emoji: '🧂',
+		items: ["Orangotang Ice Cream", "Meteorite Ice Cream", "Mocha Shake"],
 	},
+	"Salty Seaman": {
+		price: 60,
+		emoji: '🦷',
+		items: ["Fries", "Fries", "Soda", "Soda"],
+	},
+	"Burgerhead Special": {
+		price: 1435,
+		emoji: '🍔',
+		items: ["Heartstopper", "Heartstopper", "Fries", "Fries", "Soda", "Soda", "BS Bag"],
+	},
+	"Pimp Daddy": {
+		price: 800,
+		emoji: '🍔',
+		items: ["The Prickly", "Chicken Wrap", "Fries", "Fries", "Soda", "Soda",  "Soda", "Soda", "Orangotang Ice Cream", "BS Bag"],
+	},
+	"Glory to the mymack": {
+		price: 2700,
+		noDiscount: true,
+		emoji: '👑',
+		items: ["Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Meteorite Ice Cream", "Meteorite Ice Cream", "BS Bag"],
+	},
+	"Workers Special (20)": {
+		price: 3000,
+		noDiscount: true,
+		emoji: '💲',
+		items: ["Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake"],
+	},
+	"Workers Special (50)": {
+		price: 7500,
+		noDiscount: true,
+		emoji: '💲',
+		items: ["Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake", "Mocha Shake"],
+	},
+	// Burger Meals:
+	"Burger Meals:": {
+		header: true,
+	},
+	"Murder Meal": {
+		max: 4,
+		fileRenameException: true,
+		price: 1000,
+		noDiscount: true,
+		items: ["Murder Meal"],
+	},
+	"Heartstopper Meal": {
+		price: 350,
+		items: ["Heartstopper", "Fries", "Soda"],
+	},
+	"Double Shot Meal": {
+		price:300,
+		items: ["Double Shot", "Fries", "Soda"],
+	},
+	"Simply Burger Meal": {
+		price: 250,
+		items: ["Simply Burger", "Fries", "Soda"],
+	},
+	"Bleeder Meal": {
+		price: 285,
+		items: ["Bleeder", "Fries", "Soda"],
+	},
+	"The Prickly Meal": {
+		price: 275,
+		items: ["The Prickly", "Fries", "Soda"],
+	},
+	// Individual Items:
+	"Individual Items:": {
+		header: true,
+	},
+	"Heartstopper": {
+		price: 300,
+		items: ["Heartstopper"],
+	},
+	"The Prickly": {
+		price: 200,
+		items: ["The Prickly"],
+	},
+	"Double Shot": {
+		price: 220,
+		items: ["Double Shot"],
+	},
+	"Taco": {
+		price: 120,
+		items: ["Taco"],
+	},
+	"Bleeder": {
+		price: 230,
+		items: ["Bleeder"],
+	},
+	"Simply Burger": {
+		price: 150,
+		items: ["Simply Burger"],
+	},
+	"Chicken Wrap": {
+		price: 150,
+		items: ["Chicken Wrap"],
+	},
+	"Goat Cheese Wrap": {
+		price: 150,
+		items: ["Goat Cheese Wrap"],
+	},
+	"Fries": {
+		price: 50,
+		items: ["Fries"],
+	},
+	"Water": {
+		price: 5,
+		items: ["Water"],
+	},
+	"Soda": {
+		price: 25,
+		items: ["Soda"]
+	},
+	"Mocha Shake": {
+		price: 150,
+		items: ["Mocha Shake"],
+	},
+	"Meteorite Ice Cream": {
+		price: 350,
+		items: ["Meteorite Ice Cream"],
+	},
+	"Orangotang Ice Cream": {
+		price: 350,
+		items: ["Orangotang Ice Cream"]
+	},
+	"BS Bag": {
+		price: 15,
+		items: ["BS Bag"]
+	},
+	"Delivery Fee": {
+		price: 35,
+		items: ["Delivery Fee"]
+	},
+//"10 Pack BurgerBits": {
+ //  price: 1375,
+ //  max: 1,
+ //  noDiscount: true,
+  // lastItem: true,
+   //items: ["10 Pack BurgerBits"],
+//}
 };
 const INDIVIDUAL_ITEMS = [
-	"Opal Tier 1 0-30%", "Opal Tier 2 30-60%", "Opal Tier 3 60-100%", "Citrine Tier 1 0-30%", "Citrine Tier 2 30-60%", "Citrine Tier 3 60-100%", 
-	"Amethyst Tier 1 0-30%", "Amethyst Tier 2 30-60%", "Amethyst Tier 3 60-100%", "Emerald Tier 1 0-30%", "Emerald Tier 2 30-60%", "Emerald Tier 3 60-100%",
-	"Sapphire Tier 1 0-30%", "Sapphire Tier 2 30-60%", "Sapphire Tier 3 60-100%", "Ruby Tier 1 0-30%", "Ruby Tier 2 30-60%", "Ruby Tier 3 60-100%",
-	"Diamond Tier 1 0-30%", "Diamond Tier 2 30-60%", "Diamond Tier 3 60-100%", "Silver Ore", "Silver Bar", "Gold Ore", "Gold Bar",
+	"Murder Meal", "Heartstopper", "Double Shot", "Bleeder", "Water", "Simply Burger", "Chicken Wrap", "Goat Cheese Wrap", "The Prickly",
+	"Fries", "Soda", "Meteorite Ice Cream", "Orangotang Ice Cream", "Mocha Shake", "Delivery Fee", "Taco", "BS Bag",
 ];
 
 const buttons = {
@@ -164,6 +195,20 @@ const buttons = {
 	}
 };
 
+const discounts = {
+	"half_off": {
+		percent: .50,
+		desc: '50% Discount (BS Employees...)',
+	},
+	"5pcnt_off": {
+		percent: .05,
+		desc: '5% Discount (<font color="red">LIMITED TIME</font>)',
+	},
+	"blackout": {
+		percent: .15,
+		desc: 'Blackout Sale (15% off)',
+	},
+};
 
 function getOccurrence(array, value) {
 	return array.filter((v) => (v === value)).length;
@@ -233,7 +278,7 @@ function editQuantity(item) {
 
 function getEmptyOrder() {
 	let buffer = [];
-	buffer.push('<img src="images/vangelico-logo.jpg" width="45%">');
+	buffer.push('<img src="images/bs-logo.svg" width="45%">');
 	buffer.push("");
 	buffer.push("<strong>ITEMS ORDERED:</strong>");
 	buffer.push("");
@@ -260,7 +305,7 @@ function getDiscount() {
 
 function report() {
 	let buffer = [];
-	buffer.push('<img src="images/vangelico-logo.jpgS" width="45%">');
+	buffer.push('<img src="images/bs-logo.svg" width="45%">');
 	buffer.push("");
 	let curDarkmode = document.getElementById('darkmode').checked;
 	if (curDarkmode) {
