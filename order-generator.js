@@ -99,7 +99,7 @@ const Menu = {
 		items: ["Emerald Tier 2 30-60%"],
 	},
 	"Emerald Tier 3 60-100%": {
-		price: 135,
+		price: 1350,
 		emoji: "💎",
 		items: ["Emerald Tier 3 60-100%"],
 	},
