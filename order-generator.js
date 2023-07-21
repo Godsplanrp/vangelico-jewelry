@@ -130,7 +130,7 @@ const Menu = {
 	},
 	"Silver Ore": {
 		price: 75,
-		emoji: '💎',,
+		emoji: '💎',
 		items: ["Silver Ore"],
 	},
 	"Silver Bar": {
